@@ -1,0 +1,12 @@
+body {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 82, 5,.9),
+        rgba(240, 62, 2,0.5)
+    )
+}
+
+.header {
+    text-transform: uppercase;
+    text-align: center;
+}
