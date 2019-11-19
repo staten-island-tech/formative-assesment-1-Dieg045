@@ -1,9 +1,21 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+
+}
+
+div {
     background-image: linear-gradient(
         to right bottom,
-        rgba(255, 82, 5,.9),
-        rgba(240, 62, 2,0.5)
-    )
+        rgba(58, 83, 155, 1),
+        rgba(220,20,60,1)
+    ),
+    height: 100vh;
+    text-align: center;
 }
 
 .header {
