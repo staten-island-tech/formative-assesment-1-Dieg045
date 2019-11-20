@@ -11,11 +11,14 @@ body {
 div {
     background-image: linear-gradient(
         to right bottom,
-        rgba(58, 83, 155, 1),
-        rgba(220,20,60,1)
+        rgba(58, 83, 155, .5),
+        rgba(220,20,60,.5)
     ),
+    url(Images/Captian_Tsubasa.jpg);
     height: 100vh;
     text-align: center;
+    background-size: cover;
+    color: white;
 }
 
 .header {
