@@ -4,10 +4,6 @@ html {
     padding: 0;
 }
 
-body {
-
-}
-
 div {
     background-image: linear-gradient(
         to right bottom,
@@ -24,4 +20,8 @@ div {
 .header {
     text-transform: uppercase;
     text-align: center;
+}
+
+img {
+    filter: blur(5px);
 }
