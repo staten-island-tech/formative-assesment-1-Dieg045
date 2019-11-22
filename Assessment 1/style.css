@@ -1,27 +1,31 @@
 html {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-div {
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(58, 83, 155, .5),
-        rgba(220,20,60,.5)
-    ),
-    url(Images/Captian_Tsubasa.jpg);
-    height: 100vh;
-    text-align: center;
-    background-size: cover;
-    color: white;
+ul {
+  list-style: none;
 }
 
 .header {
-    text-transform: uppercase;
-    text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(58, 83, 155, 0.5),
+      rgba(220, 20, 60, 0.5)
+    ),
+    url(Images/Captian_Tsubasa.jpg);
+  height: 100vh;
+  text-align: center;
+  background-size: cover;
+  color: white;
 }
 
 img {
-    filter: blur(5px);
+  filter: blur(5px);
 }
